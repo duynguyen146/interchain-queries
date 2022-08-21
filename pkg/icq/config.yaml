@@ -1,10 +1,10 @@
-default_chain: STRIDE-TESTNET-4
+default_chain: STRIDE-TESTNET-2
 chains:
   GAIA:
     key: gaia-icq
     chain-id: GAIA
-    rpc-addr: http://95.216.21.32:23657
-    grpc-addr: http://95.216.21.32:23090
+    rpc-addr: http://localhost:26657
+    grpc-addr: http://localhost:26090
     account-prefix: cosmos
     keyring-backend: test
     gas-adjustment: 1.2
@@ -16,9 +16,9 @@ chains:
     output-format: json
     sign-mode: direct
     memo-prefix: gacon#2074
-  STRIDE-TESTNET-4:
+  STRIDE-TESTNET-2:
     key: strided-icq
-    chain-id: STRIDE-TESTNET-4
+    chain-id: STRIDE-TESTNET-2
     rpc-addr: http://localhost:16657
     grpc-addr: http://localhost:16090
     account-prefix: stride
